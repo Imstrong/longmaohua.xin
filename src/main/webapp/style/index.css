@@ -84,6 +84,8 @@ button{
     background:#333;
     color:#eee;
     padding:10px 40px;
+    cursor:pointer;
+    outline:none;
 }
 #banner .inner button{
     -webkit-border-radius: 5px;
@@ -92,6 +94,11 @@ button{
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+    transition: background .5s ease,transform .5s ease-in 0s;
+}
+#banner .inner button:hover{
+    background:#fff;
+    color:#000;
 }
 .footer{
     height:150px;
@@ -138,8 +145,13 @@ section{
     background-color:#ff0000;
 }
 .section-1 .btn2{
-    background-color:#00000000;
+    background:#00000000;
     border:1px solid #fff;
+    transition: background .2s ease,transform 2s ease-in 0s;
+}
+.section-1 .btn2:hover{
+    background:#fff;
+    color:#000;
 }
 .hr{
     height:2px;

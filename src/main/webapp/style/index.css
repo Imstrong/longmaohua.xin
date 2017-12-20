@@ -1,0 +1,149 @@
+*{
+    margin:0;
+    padding:0;
+}
+li{
+    list-style:none;
+}
+a{
+    text-decoration:none;
+}
+body {
+    background: url("../assets/banner.jpg");
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
+.hair{
+    height:10px;
+    font-size:10px;
+    line-height:10px;
+    padding:5px;
+    background:#a5a5a5;
+}
+.hair p{
+    float:right;
+    margin-right:50px;
+}
+.header{
+    background:rgba(0,0,0,.5);
+}
+.navbar ul{
+    margin:0;
+    height:50px;
+    list-style:none;
+    float:right;
+}
+.navbar ul li,.navbar .logo{
+    display:inline-block;
+    line-height:50px;
+    margin-right:20px;
+}
+.navbar ul li a{
+    line-height:inherit;
+    display:inline-block;
+    height:inherit;
+    color:#fff;
+}
+.logo{
+    padding:0 20px;
+    letter-spacing:1px;
+    font-size:20px;
+    font-weight:700;
+}
+.logo a{
+    color:#fff;
+}
+#banner{
+    height:700px;
+    margin:0;
+}
+#banner .inner{
+    max-width:300px;
+    text-align:center;
+    margin:0 auto;
+    position:relative;
+    top:150px;
+    color:#fff;
+    line-height:30px;
+}
+#banner .inner h2{
+    margin:20px 0;
+    letter-spacing: 5px;
+}
+#banner .inner .more {
+    margin-top:100px;
+}
+#banner .inner .inner_inf{
+    margin:20px 0;
+    letter-spacing: 5px;
+}
+button{
+    border:none;
+    background:#333;
+    color:#eee;
+    padding:10px 40px;
+}
+#banner .inner button{
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.footer{
+    height:150px;
+    text-align:center;
+    color:#f9fafb;
+    line-height:30px;
+    background:#20252aee
+}
+.footer .footer-content{
+    padding-top:45px;
+}
+section{
+    color:#fff;
+    height:200px;
+    background:#6398e896
+}
+.section-1{
+    background:rgba(0,0,0,.5);
+    height:200px;
+}
+.section-1 .section-content{
+    width:50%;
+    margin:0 auto;
+    line-height:30px;
+    letter-spacing:2px;
+    padding-top:30px;
+    height:200px;
+    padding:50px 0;
+}
+.section-1 .section1-left{
+    max-width: 300px;
+    float:left;
+}
+.section-1 .section1-right{
+    float:right;
+}
+.section-1 .section1-right button{
+    display:block;
+    margin-bottom: 30px;
+    padding:10px 0;
+    width:150px;
+}
+.section-1 .btn1{
+    background-color:#ff0000;
+}
+.section-1 .btn2{
+    background-color:#00000000;
+    border:1px solid #fff;
+}
+.hr{
+    height:2px;
+    background-color:#fff;
+    width:50%;
+    margin:0 auto;
+}

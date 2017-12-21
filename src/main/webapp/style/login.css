@@ -43,6 +43,7 @@ body{
     height:inherit;
     width:200px;
     padding:5px;
+    outline:none;
 }
 .footer{
     line-height:30px;

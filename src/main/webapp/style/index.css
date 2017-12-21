@@ -20,14 +20,18 @@ body {
     font-size:10px;
     line-height:10px;
     padding:5px;
-    background:#a5a5a5;
+    background:#30363e;
+    color:#fff;
+}
+.hair a{
+    color:#eee;
 }
 .hair p{
     float:right;
     margin-right:50px;
 }
 .header{
-    background:rgba(0,0,0,.5);
+    background:rgba(0,0,0,.4);
 }
 .navbar ul{
     margin:0;
@@ -69,7 +73,7 @@ body {
     line-height:30px;
 }
 #banner .inner h2{
-    margin:20px 0;
+    margin:10px 0;
     letter-spacing: 5px;
 }
 #banner .inner .more {
@@ -100,6 +104,46 @@ button{
     background:#fff;
     color:#000;
 }
+.hr{
+    height:1px;
+    background-color:#fff;
+    width:60%;
+    margin:0 auto;
+}
+.more-ico {
+    position: relative;
+    top:.1em;
+    width: .3em;
+    height: 2em;
+    background-color: rgba(200,200,200,.7);
+    border-radius: .15em;
+    margin:80px auto;
+    cursor:pointer;
+}
+.more-ico:before {
+    content: "";
+    position: absolute;
+    top: 1.9em;
+    left: -1.9em;
+    width: 2em;
+    height: .3em;
+    background-color: rgba(200,200,200,.7);
+    transform: rotate(135deg);
+    transform-origin: right center;
+    border-radius: .15em;
+}
+.more-ico:after {
+    content: "";
+    position: absolute;
+    top: 1.9em;
+    left: -1.8em;
+    width: 2em;
+    height: .3em;
+    background-color: rgba(200,200,200,.7);
+    transform: rotate(45deg);
+    transform-origin: right center;
+    border-radius: .15em;
+}
 .footer{
     height:150px;
     text-align:center;
@@ -112,11 +156,9 @@ button{
 }
 section{
     color:#fff;
-    height:200px;
-    background:#6398e896
 }
 .section-1{
-    background:rgba(0,0,0,.5);
+    background:rgba(0,0,0,.4);
     height:200px;
 }
 .section-1 .section-content{
@@ -142,7 +184,14 @@ section{
     width:150px;
 }
 .section-1 .btn1{
-    background-color:#ff0000;
+    background:rgba(255,0,0,1);
+    transition: background .2s ease,transform 2s ease-in 0s;
+    border:1px solid #f00;
+}
+.section-1 .btn1:hover{
+    background:rgba(255,0,0,.7);
+    color:#ddd;
+    border:1px solid #f00;
 }
 .section-1 .btn2{
     background:#00000000;
@@ -153,9 +202,20 @@ section{
     background:#fff;
     color:#000;
 }
-.hr{
-    height:2px;
-    background-color:#fff;
-    width:50%;
-    margin:0 auto;
+.section-4{
+    height:300px;
+    background:#079cae;
+    text-align:center;
+}
+.section4 h3{
+    display:block;
+    margin-top:50px;
+}
+.section-3{
+    height:400px;
+    background:#5951ab;
+}
+.section-2{
+    height:500px;
+    background:#30363e;
 }

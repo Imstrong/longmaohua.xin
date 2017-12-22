@@ -1,10 +1,14 @@
 body{
     /*background:-webkit-gradient(linear, 0 0, 0 bottom, from(#ffffffff), to(#20252aee));*/
-    background: url("../assets/banner.jpg");
+    background: url("../assets/i.jpg");
     -webkit-background-size: cover;
     background-size: cover;
     background-repeat:no-repeat;
     background-attachment:fixed;
+}
+a{
+    color:#fff;
+    text-decoration:none;
 }
 .container{
     width:100%;

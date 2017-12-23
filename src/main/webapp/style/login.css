@@ -45,8 +45,8 @@ a{
     display:inline-block;
     border:none;
     height:inherit;
-    width:200px;
     padding:5px;
+    width:80%;
     outline:none;
 }
 .footer{

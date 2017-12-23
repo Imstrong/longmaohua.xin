@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background: url("../assets/banner.jpg");
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.hair {
+    height: 10px;
+    font-size: 10px;
+    line-height: 10px;
+    padding: 5px;
+    background: #30363e;
+    color: #fff;
+}
+
+.hair a {
+    color: #eee;
+}
+
+.hair p {
+    float: right;
+    margin-right: 50px;
+}
+
+.header,.content {
+    background: rgba(0, 0, 0, .4);
+    color:#fff;
+    width:100%;
+}
+
+.logo {
+    padding: 20px 20px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.logo a {
+    color: #fff;
+}
+.content .introduce{
+    text-align:center;
+    padding:120px 0 30px;
+}
+.profile-wrapper{
+    width:200px;
+    margin:0 auto;
+    border-radius: 100px;
+}
+.profile-wrapper img{
+    border-radius: 100px;
+    width:100%;
+}
+.introduce{
+    line-height:30px;
+    letter-spacing:1px;
+}
+.socialities::after{
+    content:"";
+    display:block;
+    clear:both;
+}
+.socialities .social-group{
+    width:300px;
+    height:50px;
+    margin:20px auto;
+    position:relative;
+}
+.social-wrapper{
+    width:50px;
+    height:50px;
+    display:inline-block;
+    float:left;
+    margin:0 25px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.social-wrapper img{
+    width:100%;
+}
+.footer {
+    padding:50px;
+    text-align: center;
+    color: #f9fafb;
+    line-height: 30px;
+    background: #20252aee;
+    margin-top:700px;
+}
+.photo-wrapper > *{
+    float:left;
+}
+.photo-wrapper:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+.photo-content{
+    width:100%;
+    height:700px;
+    background:rgba(0,0,0,.4);
+    position:absolute;
+}
+.photo-wrapper{
+    width:60%;
+    height:500px;
+    margin:0 auto;
+}
+.photo-control{
+    background:#215a56;
+    height:inherit;
+    position:absolute;
+    width:60%;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+.photo-control>*,.photo{
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+.photo{
+    width:100%;
+    height:500px;
+    position:absolute;
+    overflow:hidden;
+}
+.photo img{
+    width:100%;
+    height:500px;
+}
+.pre-wrapper{
+    background:-moz-linear-gradient(left,rgba(255,255,255,.6),rgba(255,255,255,0));
+    background:-webkit-linear-gradient(left,rgba(255,255,255,.6),rgba(255,255,255,0));
+    height:500px;
+    width:200px;
+    position:absolute;
+    left:0;
+    z-index:1;
+    cursor:pointer;
+}
+.after-wrapper{
+    background:-moz-linear-gradient(left,rgba(255,255,255,0),rgba(255,255,255,.6));
+    background:-webkit-linear-gradient(left,rgba(255,255,255,0),rgba(255,255,255,.6));
+    height:500px;
+    width:200px;
+    position:absolute;
+    right:0;
+    z-index:1;
+    cursor:pointer;
+}
+.desc{
+    position:absolute;
+    bottom:-100px;
+    left:10%;
+    width:80%;
+    text-align:center;
+    z-index:1;
+    color:#fff;
+    max-height:100px;
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    -webkit-transition: bottom .5s ease,transform 1s ease-in 1s;
+    -moz-transition: bottom .5s ease,transform 1s ease-in 1s;
+    -ms-transition: bottom .5s ease,transform 1s ease-in 1s;
+    -o-transition: bottom .5s ease,transform 1s ease-in 1s;
+    transition: bottom .5s ease,transform 1s ease-in 1s;
+}
+.photo-group:hover .desc{
+    bottom:20px;
+}
+.poet{
+    text-align:center;
+    font-size:30px;
+    line-height:30px;
+    margin-top:85px;
+}
+.qr-code {
+    display: none;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    background: #53A973;
+    top: 65px;
+    z-index: 2;
+    left: 145px;
+    padding: 5px;
+}
+.qr-code img{
+    width:100%;
+    height:100%;
+    z-index:2;
+}
+.qr-code::after {
+    content:"";
+    position:absolute;
+    border-width:20px;
+    border-style:dashed dashed dashed solid;
+    border-color:transparent  transparent #53a973 transparent;
+    display:block;
+    right:85px;
+    top:-40px;
+}
+.wechat{
+    display:block;
+    width:100%;
+    height:100%;
+    z-index:3;
+}
+.wechat:hover .qr-code{
+    display:block;
+}
